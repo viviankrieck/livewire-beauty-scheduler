@@ -15,13 +15,17 @@
 
     <body>
 
-        <h1>Bem-vindo ao Livewire</h1>
-        <p>Este é um exemplo simples de componente do Livewire.</p>
-        <livewire:counter />
-        <livewire:message />
+        <div class="text-2xl">Bem-vindo ao Livewire</div>
+        <div class="text-sm">
+            Este é um exemplo simples de componente do Livewire.
+        </div>
+        {{--
+            <livewire:counter />
+            <livewire:message />
+        --}}
+        <livewire:calculator />
 
         @livewireScripts
-
     </body>
 
 </html>

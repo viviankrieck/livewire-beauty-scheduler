@@ -19,8 +19,9 @@ button:active {
     transform: scale(0.96);
 }
 body {
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
+    /* font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto; */
+    margin: 10px 20px;
 }
 
 #counter {
