@@ -14,7 +14,6 @@
     </head>
 
     <body>
-
         <div class="text-2xl">Bem-vindo ao Livewire</div>
         <div class="text-sm">
             Este é um exemplo simples de componente do Livewire.
