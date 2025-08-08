@@ -1,10 +1,15 @@
 {
     "$schema": "https://json.schemastore.org/package.json",
+    "description": "TESTE PARA APRENDER NA PRÁTICA",
+    "productName": "VK Beauty Scheduler",
+    "author": "VIVIAN PEREIRA KRIECK",
     "private": true,
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "serve": "php artisan serve",
+        "start": "concurrently \"npm run dev\" \"npm run serve\""
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",
